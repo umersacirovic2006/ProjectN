@@ -1,0 +1,38 @@
+.nav {
+    background-color: #23383d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 100px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.nav .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 65%;
+}
+
+.nav .icons {
+    display: flex;
+    flex-direction: column;
+    min-height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .menu {
+    display: flex;
+    justify-content: center;
+}
+
+.nav .active {
+    color: rgb(39, 91, 131);
+}
+
+.nav .inactive {
+    color: white;
+}
